@@ -9,6 +9,7 @@ print("Division:", a / b)
 print("Integer Division:", a // b)
 print("Modulus:", a % b)
 print("Exponent:", a ** b)
+print("Exponent:", b ** a)
 
 # Assignment Operators
 print("\nAssignment Operators:")
