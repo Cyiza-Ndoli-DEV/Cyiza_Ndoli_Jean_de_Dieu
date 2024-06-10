@@ -3,8 +3,8 @@ import cmath
 
 #integers
 
-a =2
-b= 5
+a=2
+b=5
 
 print(b//a) #integer division ans:2
 print(b**a) #25
