@@ -13,10 +13,21 @@ class Person:
     def __init__(self,name,age):
         self.name = name
         self.age = age
-        
+        #str 
     def __str__(self):
         return f"NAME: {self.name}, AGE: ({self.age})"    
         
+        # repr()
+    def __repr__(self):
+        return f"NAME: {self.name},\n AGE: ({self.age})"
+    
+        
+        
+        
 p1 = Person("SOUZZIE", 77)
     
-print(p1)        
+    
+print(str(p1))
+
+# official
+print(repr(p1))
