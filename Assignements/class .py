@@ -51,12 +51,11 @@ class Employee:
         
     # def __str__(this):
     #     return f"Employee(name is {this.name}, their age is {this.age})"
-    # f string provides readable way to format a string
+    # f string pro\ides readable way to format a string
     
     
     
-    #CYIZA JEAN DE DIEU
-    
+    #CYIZA NDOLI JEAN DE DIEU
     
     def __str__(Emp3):
        
