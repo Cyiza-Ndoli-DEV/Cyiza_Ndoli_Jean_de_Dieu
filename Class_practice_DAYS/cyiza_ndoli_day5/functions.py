@@ -12,7 +12,7 @@ def multiply():
 # Example 3 Return multiple return values of my details
 def get_name_and_position():
     name ='cyiza'
-    position = 'I am a sodtware tester software tester'
+    position = 'I am a software tester software tester at ST OMUTUNDE CODING ACADEMY'
     return name,position
 
 name,position = get_name_and_position()
