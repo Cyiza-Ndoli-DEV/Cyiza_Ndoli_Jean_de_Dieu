@@ -16,8 +16,8 @@ Closing File: close() function ========= close
 
 # Writing to a text file
 with open('Cyiza.txt', 'w') as file:  # 'w' opens the file in write mode
-    file.write('Cyiza is a software tester who uses tor. ')
-    file.write('We use ruby though.')
+    file.write('Cyiza is a software tester who uses tor. \n')
+    file.write('I use ruby though.')
 
 # Reading from a text file
 with open('Cyiza.txt', 'r') as file:  # 'r' opens the file in read mode

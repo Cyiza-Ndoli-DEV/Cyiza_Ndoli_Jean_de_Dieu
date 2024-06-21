@@ -1,1 +1,2 @@
-Cyiza is a software tester who uses tor. We use ruby though.
+Cyiza is a software tester who uses tor. 
+I use ruby though.
