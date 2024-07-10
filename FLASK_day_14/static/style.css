@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #2E8B57; /* Sea Green */
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #66CDAA 3px solid; /* Medium Aquamarine */
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding {
+    float: left;
+}
+header #branding h1 {
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #2E8B57; /* Sea Green */
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.button:hover {
+    background-color: #3CB371; /* Medium Sea Green */
+}
+.button:active {
+    background-color: #3CB371; /* Medium Sea Green */
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+form {
+    background: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+form input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #2E8B57; /* Sea Green */
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+form input[type="submit"]:hover {
+    background-color: #3CB371; /* Medium Sea Green */
+}
+form input[type="submit"]:active {
+    background-color: #3CB371; /* Medium Sea Green */
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
