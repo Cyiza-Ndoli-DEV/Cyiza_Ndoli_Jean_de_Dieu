@@ -12,7 +12,12 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="{{ url_for('index') }}" class="button">Back to Species List</a></li>
+                    <li><a href="{{ url_for('index') }}" class="button">Home</a></li>
+                    <li><a href="{{ url_for('add_species') }}" class="button">Add Species</a></li>
+                    <li><a href="{{ url_for('species_list') }}" class="button">Species List</a></li>
+                    <li><a href="{{ url_for('about') }}" class="button">About Us</a></li>
+                    <li><a href="{{ url_for('contact') }}" class="button">Contact</a></li>
+                    <li><a href="{{ url_for('donate') }}" class="button">Donate</a></li>
                 </ul>
             </nav>
         </div>
